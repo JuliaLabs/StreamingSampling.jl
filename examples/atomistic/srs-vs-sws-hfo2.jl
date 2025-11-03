@@ -158,7 +158,7 @@ end
 ws = compute_weights(ds_train_rnd.Configurations;
                      create_feature=create_feature,
                      chunksize=2000,
-                     subchunksize=4)
+                     subchunksize=200)
 open("ws-hfo2.jls", "w") do io
     serialize(io, ws)
     flush(io)

@@ -34,7 +34,7 @@ open("ws-iso17.jls", "w") do io
     serialize(io, ws)
     flush(io)
 end
-#sme = deserialize("ws-iso17.jls")
+#ws = deserialize("ws-iso17.jls")
 
 # Sampling experiments #########################################################
 
