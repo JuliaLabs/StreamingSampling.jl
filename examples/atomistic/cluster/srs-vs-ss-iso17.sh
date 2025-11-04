@@ -11,5 +11,5 @@ module load julia/1.10.4 # Engaging
 # Install Julia packages
 julia --project=./ -e 'import Pkg; Pkg.instantiate()'
 # Run the script
-julia --project=./ srs-vs-sme-hfo2.jl
+julia --project=./ srs-vs-ss-iso17.jl
 
